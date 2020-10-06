@@ -29,7 +29,7 @@ public class AddingMachine {
   
   public void add (int value) {
 	  total = total + value;
-	  history = history + "+ " + value;
+	  history = history + " + " + value;
   }
 
   /**
@@ -38,7 +38,7 @@ public class AddingMachine {
    */
   public void subtract (int value) {
 	  total = total - value;
-	  history = history + "- " + value;
+	  history = history + " - " + value;
   }
 
   /**
